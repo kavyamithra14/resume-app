@@ -1,0 +1,176 @@
+body, html {
+  margin: 0px;
+  width: 100%;
+  height: 100%; 
+  background: #ccc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+/*common div*/
+.resume {
+    margin: 50px auto;
+  width: 60%;
+  background: #fff;
+  /*height: calc(100% - 60px);*/
+  overflow: auto;
+  padding: 0px 0px 30px 0px;
+}
+
+
+
+.fb{
+  font-weight: bold;
+}
+     
+         /*left side of resume*/
+.resume .resume-left {
+  width: 60%;
+  height: auto;
+  float: left;
+  /*padding: 5px;*/
+  background: #fff;
+  margin-top: 20px;
+}
+/*line*/
+.resume .resume-left .re-line{
+  border-color: #00BCD4;
+}
+/*name */
+.resume .resume-left .resume-name {
+  text-align: right;
+  padding: 25px 20px 25px 40px;
+}
+.resume .resume-left .resume-name span{
+  color: #00BCD4;
+}
+.resume .resume-left  .perinfo-head {
+    background: #e8e6e6;
+    text-align: right;
+    padding: 1px 15px 1px 0px;
+}
+.resume .resume-left .res-perso .perinfo-detail {
+    float: right;
+    padding: 0px 0px 0px 55px;
+}
+.resume .resume-left .res-experi{
+  /*float: right;*/
+}
+/*.perinfo-experi{
+  background: #dad4d4;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+
+}*/
+.resume .resume-left .res-hitech {
+    /*float: right;*/
+    padding: 15px;
+}
+.resume .resume-left  .res-hitech span{
+  padding: 3px 0;
+    /*font-size: 13px;*/
+    width: 100%;
+    display: block;
+}
+.resume .resume-left  .res-hitech .exp-comp {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+.resume .resume-left  .res-hitech .exp-field {
+    color: #00BCD4;
+    font-size: 10px;
+    text-align: right;
+
+}
+.resume .resume-left  .res-hitech .exp-date {
+    font-size: 10px;
+    color: #9E9E9E;
+    text-align: right;
+}
+.resume .resume-left  .res-hitech .exp-cont
+{
+  text-align: right;
+}
+
+
+
+    /*right side of resume*/
+.resume .resume-right {
+  width: 40%;
+  height: auto;
+  float: left;
+  background: #ece7e7;
+  /*padding: 5px;*/
+}
+.resume .resume-right .resume-image img{
+  /*width: 100%;
+  height: 100%*/
+  width: 360px;
+    height: 250px;
+}
+    /*contact detail*/
+.resume .resume-right .numb,.web,.email {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    /*display: inline-block;*/
+}
+.resume .resume-right .numb div:hover {
+  background: #212644;
+}
+.resume .resume-right .web div:hover {
+  background: #71b2d0;
+}
+.resume .resume-right .email div:hover {
+  background: #3399a7;
+}
+.resume .resume-right .cont-left{
+    width: 20%;
+    float: left;
+    height: 50px;
+}
+.resume .resume-right .cont-right{
+    width: 80%;
+    float: right;
+    opacity: 0.8;
+    height: 50px;
+}
+
+.resume .resume-right .numb .cont-left{
+  background: #001a33;
+}
+.resume .resume-right .numb .cont-right{
+  background: #001a33;
+}
+
+.resume .resume-right .web .cont-left{
+  background: #008ae6 ;
+}
+.resume .resume-right .web .cont-right{
+  background: #008ae6 ;
+}
+.resume .resume-right .email .cont-left{
+  background: #00a3cc ;
+}
+.resume .resume-right .email .cont-right{
+  background: #00a3cc ;
+}
+.resume .resume-right .skill,.address{
+  padding: 15px;
+  font-weight: bold;
+}
+.resume .resume-right .skill td{
+  font-size: 10px;
+}
+.resume .resume-right .hobbies {
+    padding: 15px;
+    font-weight: bold;
+}
+.resume .resume-right .address .add-deta {
+  /*display: inline-block;*/
+}
+
+  /*hr tage*/
+.hrwhite{
+  border-color: #fff;
+}
